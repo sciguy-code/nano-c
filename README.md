@@ -1,24 +1,24 @@
 # Simple C Compiler
 
-> This is a modular compiler designed for educational purposes.
+> This is a modular compiler designed for educational purposes. More detailed discussion [here](https://github.com/sciguy-code/nano-c/blob/main/OVERVIEW.md).
 
 **Folder Structure**
 ```
-
-├── bin/                 
-├── src/                 
-│   ├── lexer.c          
-│   ├── parser.c          
-│   ├── codegen.c        
-│   └── main.c          
-├── include/             
-│   ├── lexer.h           
-│   └── parser.h 
-    └── codegen.h        
-├── tests/               
+├── bin/
+├── src/
+│   ├── lexer.c
+│   ├── parser.c
+│   ├── codegen.c
+│   └── main.c
+├── include/
+│   ├── lexer.h
+│   ├── parser.h
+│   └── codegen.h
+├── tests/
 │   └── input.txt
-├── Makefile             
-└── README.md           
+├── Makefile
+└── README.md
+
 ```
 
 
